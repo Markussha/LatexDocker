@@ -17,5 +17,5 @@ RUN curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runne
 RUN apt-get -y update
 RUN apt-get install -y gitlab-runner
 
-#CMD ["gitlab-runner", "run"]
-CMD ["bash"]
+CMD ["gitlab-runner", "run"]
+
