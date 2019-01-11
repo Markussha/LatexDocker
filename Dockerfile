@@ -18,3 +18,4 @@ RUN apt-get -y update
 RUN apt-get install -y gitlab-runner
 
 #CMD ["gitlab-runner", "run"]
+CMD ["bash"]
